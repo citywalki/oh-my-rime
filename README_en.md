@@ -50,6 +50,8 @@ The default address of the local rime configuration file is as follows
   - Squirrel: `~/Library/Rime`
 - Linux
   - iBus: `~/.config/ibus/rime`
+  - Fcitx5: `~/.local/share/fcitx5/rime`
+- Fctix5 Android: `/storage/emulated/0/Android/data/org.fcitx.fcitx5.android/files/data/rime/`
 
 The default address of the local rime log file is as follows:
 -Windows
@@ -59,14 +61,15 @@ The default address of the local rime log file is as follows:
 - Linux
   -iBus:`/tmp`
 
+  If you need to use rime in trime with android, you can use oh-my-rime's theme by: [Mint_light_blue and Mint_dark_blue](https://www.mintimate.cc/zh/demo/diffAppearance.html#android%E5%A4%96%E8%A7%82)
 
 ## Configuration file description
 
 - `default.custom.yaml` set the input method, how to switch the input method, turn the page, etc.
-- `squirrel.custom.yaml` mouse whisker tube (Mac version) to set which software defaults to English input, input method skin, etc.
-- `weasel.custom.yaml` Xiaolanghao (Win version) sets which software defaults to English input, input method skin, etc.
+- `squirrel.yaml` Mac version to set which software defaults to English input, input method skin, etc.
+- `weasel.yaml` Win version to set which software defaults to English input, input method skin, etc.
 
-Most of the configuration files are commented.
+Most of the configuration files are commented. Cooperate with the tutorial: [Configuration Overrides and Customization](https://www.mintimate.cc/en/guide/configurationOverride.html)
 
 ## Customization and Updates of Dictionaries
 

@@ -51,6 +51,8 @@ rime配置教程：
   - Squirrel: `~/Library/Rime`
 - Linux
   - iBus:` ~/.config/ibus/rime`
+  - Fcitx5: `~/.local/share/fcitx5/rime`
+- Fctix5 Android(小企鵝輸入法): `/storage/emulated/0/Android/data/org.fcitx.fcitx5.android/files/data/rime/`
 
 本地rime日誌文件默認地址如下：
 - Windows
@@ -59,15 +61,16 @@ rime配置教程：
   - Squirrel: `$TMPDIR`
 - Linux
   - iBus:` /tmp`
-
+  
+  如果妳需要在同文輸入法內使用，需要一個鍵盤模闆和皮膚，可以使用: [薄荷輸入法的”藍水鴨“和”黑水鴨“皮膚佈局](https://www.mintimate.cc/zh/demo/diffAppearance.html#android%E5%A4%96%E8%A7%82)
 
 ## 配置文件說明
 
-- `default.custom.yaml` 設置輸入法、如何切換輸入法、翻頁等
-- `squirrel.custom.yaml` 鼠須管( Mac 版本 )設置哪些軟件默認英文輸入，輸入法皮膚等
-- `weasel.custom.yaml` 小狼毫( Win 版本 )設置哪些軟件默認英文輸入，輸入法皮膚等
+- `default.custom.yaml` 設定輸入法、如何切換輸入法、翻頁等
+- `squirrel.yaml` 鼠須管( Mac 版本 )設定哪些軟體預設英文輸入，輸入法皮膚等；如需自定義，建議自行創建`squirrel.custom.yaml`來覆寫。 
+- `weasel.yaml` 小狼毫( Win 版本 )設定哪些軟體預設英文輸入，輸入法皮膚等；如需自定義，建議自行創建`weasel.custom.yaml`來覆寫。
 
-配置文件中大部分都有註釋。
+配置文件中大部分都有註釋，配合教程：[配置覆寫](https://www.mintimate.cc/zh/guide/configurationOverride.html)
 
 ## 詞庫定制以及更新
 

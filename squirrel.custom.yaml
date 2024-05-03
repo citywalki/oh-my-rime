@@ -1,0 +1,12 @@
+patch:
+  app_options:
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.apple.finder:
+      ascii_mode: true
+    com.raycast.macos:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    dev.warp.Warp-Stable:
+      ascii_mode: true

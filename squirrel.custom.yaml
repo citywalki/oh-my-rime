@@ -10,3 +10,5 @@ patch:
       ascii_mode: true
     dev.warp.Warp-Stable:
       ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
